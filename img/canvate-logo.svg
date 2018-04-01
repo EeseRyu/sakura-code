@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg815"
+   width="169"
+   height="37"
+   viewBox="0 0 169 37"
+   sodipodi:docname="canvate-logo.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs819" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="971"
+     id="namedview817"
+     showgrid="false"
+     inkscape:zoom="2.3773414"
+     inkscape:cx="110.02775"
+     inkscape:cy="-7.1730521"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg815"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <g
+     id="g1456"
+     transform="matrix(1.0038936,0,0,1.0038936,2.5024174,-3.0888282)">
+    <text
+       transform="skewX(-18.367078)"
+       id="text10565-2"
+       y="32.620304"
+       x="6.902977"
+       style="font-style:normal;font-weight:normal;font-size:42.39542389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0598855"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Khand;-inkscape-font-specification:Khand;stroke-width:1.0598855"
+         y="32.620304"
+         x="6.902977"
+         id="tspan10563-7"
+         sodipodi:role="line">Canvate  JS</tspan></text>
+    <circle
+       r="3.5732858"
+       cy="29.29291"
+       cx="123.26124"
+       id="path10642"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.18722966;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+  </g>
+  <path
+     sodipodi:type="star"
+     style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     id="path2679"
+     sodipodi:sides="5"
+     sodipodi:cx="-377.49832"
+     sodipodi:cy="-571.73346"
+     sodipodi:r1="323.93066"
+     sodipodi:r2="161.96533"
+     sodipodi:arg1="0.67877047"
+     sodipodi:arg2="1.307089"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m -125.36843,-368.35797 -209.91177,-47.00926 -157.72729,146.27003 -20.15784,-214.16461 -187.85148,-104.80765 197.45354,-85.35175 41.6287,-211.04471 142.19083,161.41433 213.57943,-25.62516 -109.57477,185.11129 z"
+     inkscape:transform-center-x="26.092236"
+     inkscape:transform-center-y="-5.0481008" />
+</svg>

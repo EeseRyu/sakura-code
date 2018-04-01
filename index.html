@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CANVATE</title>
+    <style>
+        aside ul li{
+            float:right;
+        }
+        nav ul li{
+            float:right;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row clearfix">
+                <a class="column-2">
+                        <img src="img/canvate.svg">
+                    </a>
+                <nav class="column-5">
+                    <ul>
+                        <li><a>Docs</a></li>
+                        <li><a>Tutorial</a></li>
+                        <li><a>Blog</a></li>
+                    </ul>
+                 </nav>
+                <aside class="column-5 last">
+                    <ul>
+                        <li><a>Version 0.0.1</a></li>
+                        <li><a>GitHub</a></li>
+                        <li><a>Resume</a></li>
+                        <li><a>ES</a></li>
+                    </ul>
+                <aside>
+            </header>
+            <header ="row clearfix">
+                    <section class="column-12">
+                        <h1>CANVATE</h1>
+                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                    </section>
+            </header>
+            <header ="row clearfix">
+                    <section class="column-4">
+                        <h3>Write less, do more.</h3>
+                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                    </section>
+                    <section class="column-4">
+                        <h3>Friendly code</h3>
+                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                    </section>
+                    <section class="column-4 last">
+                        <h3>High performance</h3>
+                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                    </section>
+            </header>
+            <section ="row clearfix">
+                    <section class="column-2">
+                        <h3>Write less, do more.</h3>
+                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                    </section>
+                    <section class="column-2">
+                        <h3>Friendly code</h3>
+                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                    </section>
+            </section>
+        </div>
+        <script>
+           function getParam(name) {
+               name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+               var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+               var results = regex.exec(location.search);
+               return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+           };
+            
+            function loadScripts(e,t){var r,n,s=[],a=document.scripts[0];if(null!=e)for(;r=e.shift();)"async"in a?((n=document.createElement("script")).async=!1,n.src=r,document.head.appendChild(n)):a.readyState?(n=document.createElement("script"),s.push(n),n.onreadystatechange=function(){for(var e;s[0]&&"loaded"==s[0].readyState;)(e=s.shift()).onreadystatechange=null,a.parentNode.insertBefore(e,a)},n.src=r):document.write('<script src="'+src+'" defer><\/script>');var c=document.getElementsByTagName("head")[0];if(null!=t)for(;r=t.shift();)(n=document.createElement("link")).setAttribute("rel","stylesheet"),n.setAttribute("type","text/css"),n.setAttribute("href",r),c.appendChild(n)}
+            var antiCache = new Date().getTime();
+        setTimeout(function(){
+            var version = getParam("v");
+            loadScripts(['js/canvate.js?'+antiCache
+                        ,'js/sakura.js?'+antiCache
+                     /*',js/model.js'
+                        ,'js/view.js'
+                        ,'js/controller.js'*/], 
+                        [ "css/grid.css"
+                         ,"css/general.css"]);
+        }, 100);
+        </script>
+	</body>
+</html>
