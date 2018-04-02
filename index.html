@@ -1,72 +1,289 @@
 <!DOCTYPE html>
-<html>Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+<html>
     <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CANVATE</title>
     <style>
+        * {
+            border    : 0;
+            margin    : 0;
+            padding   : 0;
+            text-align: center;
+        }
+
+        html {
+            display  : block;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            box-sizing: border-box;
+        }
+
+        section, header, nav, footer {
+            border : 0;
+            margin : 0;
+            padding: 0;
+            display: block;
+        }
+
+        ol, ul {
+            list-style     : none;
+            list-style-type: none;
+        }
+
+        html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+        body {
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        header section img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto%;
+            height:50px;
+        }
+        
+        header section p {
+            margin-top: 30px;
+            text-align : left;
+        }
+        
+        .header1 {
+                background-color: #20232a;
+                color: #ffffff;
+                position: fixed;
+                z-index: 1;
+                width: 100%;
+                top: 0;
+                left: 0;
+        }
+        
+        .mainHeader {
+            position:relative;
+            overflow:hidden;
+        }
+        
+        section#header2 {
+            padding-top: 90px;
+            padding-bottom: 50px;
+        }
+        
+        section#header2 section p {
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: 0.01em;
+            font-weight: 200;
+        }
+        
+        section#header3 {
+            padding-bottom: 85px;
+        }
+        
+        section#header3 section:nth-child(1){
+            text-align: right;
+        }
+        
+        
+        section#header3 section:nth-child(2) {
+            text-align: left;
+        }
+        
+        section#header3 section a {
+            font-size: 20px;
+            color: #000000;
+            white-space: nowrap;
+            transition: background-color 0.2s ease-out;
+            -webkit-transition: background-color 0.2s ease-out;
+            -moz-transition: background-color 0.2s ease-out;
+        }
+        
+        section#header3 section:nth-child(1) a {
+            padding: 10px 25px;
+            background-color: #61dafb;
+        }
+        
+       header.header4 {
+            margin-top: 60px;
+            border-bottom: 1px solid #ececec;
+            padding-bottom: 60px;
+        }
+        
         aside ul li{
             float:right;
         }
         nav ul li{
-            float:right;
+            float:left;
+        }
+        
+        body header nav ul {
+            padding-top : 19px;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        
+        a:active, a:hover {
+            outline-width: 0;
+             color: #61dafb;
+        }
+        
+        h3 {
+            font-size: 24px;
+            font-weight: 200;
+            line-height: 1.3;
+            text-align : left;
+        }
+        
+        p {
+            font-size: 17px;
+            line-height: 1.7;
+            max-width: 42em;
+            font-weight: 400;
+        }
+        
+        header.full-container.mainHeader {
+            background-color:#61dafb1c;
+        }
+        
+        @media screen and (min-width: 1280px){
+            body header nav ul li a {
+                cursor: pointer;
+                font-weight: 300;
+                padding-right: 20px;
+                font-size: 18px;
+                text-decoration:none;
+            }
+        
+            section#header2 section img {
+                height : 160px;
+                width  : auto;
+            }
+            
+            section#header2 section p {
+                font-size: 30px;
+                margin-top: 0;
+            }
+            
+            section#header3 section a {
+                font-size: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
         }
         
     </style>
     </head>
-    <body>
-        <div class="container">
-            <header class="row clearfix">
-                <a class="column-2">
-                        <img src="img/canvate.svg">
-                    </a>
-                <nav class="column-5">
-                    <ul>
-                        <li><a>Docs</a></li>
-                        <li><a>Tutorial</a></li>
-                        <li><a>Blog</a></li>
-                    </ul>
-                 </nav>
-                <aside class="column-5 last">
-                    <ul>
-                        <li><a>Version 0.0.1</a></li>
-                        <li><a>GitHub</a></li>
-                        <li><a>Resume</a></li>
-                        <li><a>ES</a></li>
-                    </ul>
-                <aside>
-            </header>
-            <header ="row clearfix">
+    <body class="full-container">
+        <header class="header1 clearfix">
+            <section class="column-3">
+                <img src="img/canvate-shiroi-aoi-1.svg">
+            </section>
+            <nav class="column-5">
+                <ul>
+                    <li><a>Docs</a></li>
+                    <li><a>Tutorial</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+             </nav>
+            <aside class="column-4 last">
+                <ul>
+                    <li><a>Version 0.1.0</a></li>
+                    <li><a>GitHub</a></li>
+                    <li><a>Resume</a></li>
+                    <li><a>ES</a></li>
+                </ul>
+            <aside>
+        </header>
+        <header class="full-container mainHeader">
+            <section id="header2" class="row clearfix">
                     <section class="column-12">
-                        <h1>CANVATE</h1>
-                        <p>JavaScript library for interactive animation using canvas simpler.</p>
-                    </section>
-            </header>
-            <header ="row clearfix">
-                    <section class="column-4">
-                        <h3>Write less, do more.</h3>
-                        <p>JavaScript library for interactive animation using canvas simpler.</p>
-                    </section>
-                    <section class="column-4">
-                        <h3>Friendly code</h3>
-                        <p>JavaScript library for interactive animation using canvas simpler.</p>
-                    </section>
-                    <section class="column-4 last">
-                        <h3>High performance</h3>
-                        <p>JavaScript library for interactive animation using canvas simpler.</p>
-                    </section>
-            </header>
-            <section ="row clearfix">
-                    <section class="column-2">
-                        <h3>Write less, do more.</h3>
-                        <p>JavaScript library for interactive animation using canvas simpler.</p>
-                    </section>
-                    <section class="column-2">
-                        <h3>Friendly code</h3>
-                        <p>JavaScript library for interactive animation using canvas simpler.</p>
+                        <img src="img/canvate.svg">
+                        <p>JavaScript library for interactive animation</p>
+                        <p>using HTML5 Canvas simpler.</p>
                     </section>
             </section>
-        </div>
+            <section id="header3" class="row clearfix">
+                    <section class="column-6">
+                        <a>Get Started</a>
+                    </section>
+                    <section class="column-6 last">
+                        <a>Take the Tutorial</a>
+                    </section>
+            </section>
+        </header>
+        <header class="header4 row clearfix">
+            <section class="column-4">
+                <h3>Easer and Powerfull</h3>
+                <p>Canvate provides straight forward solutions for working with rich graphics and interactivity with HTML5 Canvas easly.</p>
+            </section>
+            <section class="column-4">
+                <h3>Write less, do more.</h3>
+                <p>Let leverage all the power of the canvas with Canvate. Create rich user experiences and animations fully interactive with Canvate.</p>
+                
+            </section>
+            <section class="column-4 last">
+                <h3>Friendly code</h3>
+                <p>Developer and designer can focus on create something cool, and let Canvate do the hard work.</p>
+               
+                <!--
+                <p>Features animation support, sprite sheet, image grouping and nesting, text wrapping,event capture and a lot of powerful functionality to create and work with canvas.</p>
+                
+                <p>Born to make visualization and animation using canvas simpler.</p>
+                <p>Canvate make it easy to generate complex visualizations in the simple way.</p>
+                
+                 <p>Canvate makes it far faster and easier to do interactivity and animations. The API functions do what they're called and are largely guessable. This means faster productivity, shallower learning curve.</p>
+                 
+                It's fairly simple and easy to use 
+                 It can be used to create either static diagrams or fully interactive diagramming tools and application builders.-->
+                
+            </section>
+        </header>
+        <!--
+        <section class="row clearfix">
+                <section class="column-8">
+                    <h3>Loading and image</h3>
+                    <p>JavaScript library for interactive animation using canvas simpler.</p>
+                </section>
+                <section class="column-4 last">
+                    <canvas></canvas>
+                </section>
+        </section>
+        <section class="row clearfix">
+                <section class="column-8">
+                    <h3>Loading and image</h3>
+                    <p>JavaScript library for interactive animation using canvas simpler.</p>
+                </section>
+                <section class="column-4 last">
+                    <canvas></canvas>
+                </section>
+        </section>
+        <section class="row clearfix">
+                <section class="column-8">
+                    <h3>Loading and image</h3>
+                    <p>JavaScript library for interactive animation using canvas simpler.</p>
+                </section>
+                <section class="column-4 last">
+                    <canvas></canvas>
+                </section>
+        </section>
+        <footer class="row clearfix">
+            <section class="column-5">
+                <img  src="">
+                <p>by Sakura code</p>
+            </section>
+            <section class="column-3">
+                <canvas></canvas>
+            </section>
+            <section class="column-3 last">
+                <canvas></canvas>
+            </section>
+        </footer>-->
         <script>
            function getParam(name) {
                name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
@@ -79,13 +296,12 @@
             var antiCache = new Date().getTime();
         setTimeout(function(){
             var version = getParam("v");
-            loadScripts(['js/canvate.js?'+antiCache
+            loadScripts([ /*'js/canvate.js?'+antiCache
                         ,'js/sakura.js?'+antiCache
-                     /*',js/model.js'
+                    ',js/model.js'
                         ,'js/view.js'
                         ,'js/controller.js'*/], 
-                        [ "css/grid.css"
-                         ,"css/general.css"]);
+                        [ "css/canvate.css"]);
         }, 100);
         </script>
 	</body>
